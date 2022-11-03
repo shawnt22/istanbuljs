@@ -17,6 +17,9 @@ const { CoverageMap } = require('./lib/coverage-map');
 const { CoverageSummary } = require('./lib/coverage-summary');
 
 module.exports = {
+    FileCoverage,
+    CoverageMap,
+    CoverageSummary,
     /**
      * creates a coverage summary object
      * @param {Object} obj an argument with the same semantics

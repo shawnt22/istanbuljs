@@ -1,13 +1,19 @@
 {
-  "name": "istanbul-lib-coverage",
-  "version": "3.2.0",
+  "name": "ts-istanbul-lib-coverage",
+  "version": "3.2.0-ts.0",
   "description": "Data library for istanbul coverage objects",
   "author": "Krishnan Anantheswaran <kananthmail-github@yahoo.com>",
   "main": "index.js",
+  "types": "index.d.ts",
   "files": [
     "lib",
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "test": "nyc mocha"
   },
